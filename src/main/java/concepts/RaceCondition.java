@@ -11,7 +11,7 @@ public class RaceCondition {
 		Runnable r = () -> {
 			
 			for (int i = 0 ; i < 1_000 ; i++) {
-				longWrapper.incrementValue();
+				longWrapper.incrementValue1();
 			}
 		};
 		
